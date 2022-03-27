@@ -109,8 +109,8 @@ class TransmitterDevice(AutomatronDevice):
 
 class HUEControllReceiver(ReceiverDevice):
 	def _init_device(self, reinit=False):
-		self._url = "http://192.168.0.150"
-		self._username = "FLPYo-2Oe1NZEM47h5KW86K1QfLeSOh2CPFTSYIs"
+		self._url = "url"
+		self._username = "username"
 		self._sleep = 1
 
 	def listen(self):
